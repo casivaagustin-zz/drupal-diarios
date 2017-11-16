@@ -1,0 +1,61 @@
+body {
+  background: #fff url('../../img/Image_Banner.png') no-repeat;
+  background-position: 99% 2%;
+  background-size: 200px;
+  -webkit-transition: width 2s;
+  transition: background-size 2s;
+}
+
+
+.reveal {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  color: #444;
+}
+
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6  {
+  color: #ff7a00;
+}
+
+.reveal section img.no-shadow {
+  box-shadow: none;
+  border: 0px;
+}
+
+.bottom_corner_right {
+  position: fixed;
+  right: -20px;
+  bottom: 0px;
+  top: auto;
+  left: auto;
+}
+
+.logo {
+  background-color: #444;
+  position: fixed;
+  width: 100px;
+  text-align: center;
+  height: 33px;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 2px;
+}
+
+img.top_left {
+  width: 437px;
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  right: auto;
+  left: -100px;
+  top: 3%;
+}
+
+
+img.zeke {
+  left: 0px;
+  right: auto;
+  width: 188px;
+}
